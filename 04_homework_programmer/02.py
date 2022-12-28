@@ -2,7 +2,7 @@
 
 
 num = int(input("Введите число: "))
-i = 2 # первое простое число
+i = 2
 lst = []
 prev = num
 while i <= num:
