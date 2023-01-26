@@ -1,4 +1,4 @@
-import crud as cr
+import crude as cr
 import logger as lg
 
 
