@@ -10,7 +10,7 @@ from filter import IsMoveFilter, LetsPlayFilter, DontPlayFilter
 from game_func import check_desk, reset_board, init
 from keyboard import create_keyboard, set_main_menu
 
-API_TOKEN: str = '6061972237:AAFWYYwNjPQhAjOBqo3gA-pWFxjWOpBJqsc'
+API_TOKEN: str = 'ЗДЕСЬ ДОЛЖЕН БЫТЬ ТВОЙ ТОКЕН'
 bot: Bot = Bot(token=API_TOKEN)
 dp: Dispatcher = Dispatcher()
 db: dict = {}
