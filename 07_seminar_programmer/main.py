@@ -13,7 +13,7 @@ heap = {
 
 async def startcalc(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     heap['count']=1
-    await update.message.reply_text("Какой-нибудь текст")
+    await update.message.reply_text("Добро пожаловать в калькулятор!!!")
 
 async def calculate(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     if heap['count'] != 0:
@@ -38,7 +38,7 @@ async def calculate(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 
 app = ApplicationBuilder().token("6061972237:AAFWYYwNjPQhAjOBqo3gA-pWFxjWOpBJqsc").build()
-print("Руддщ")
+print("Hello!!!")
 app.add_handler(CommandHandler("start", startcalc))
 app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, calculate))
 
