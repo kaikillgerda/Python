@@ -37,7 +37,7 @@ async def calculate(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 
 
-app = ApplicationBuilder().token("6061972237:AAFWYYwNjPQhAjOBqo3gA-pWFxjWOpBJqsc").build()
+app = ApplicationBuilder().token("YOUR TOKEN HERE").build()
 print("Hello!!!")
 app.add_handler(CommandHandler("start", startcalc))
 app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, calculate))
