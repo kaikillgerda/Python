@@ -23,5 +23,5 @@ def run():
             f.show('id')
             f.id_edit_del_show('show')
         if input_from_user == '7':
-            ui.goodbuy()
+            ui.goodbye()
             break

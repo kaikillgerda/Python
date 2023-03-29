@@ -21,5 +21,5 @@ def check_len_text_input(text, n):
         return text
 
 
-def goodbuy():
+def goodbye():
     print("Приходите к нам еще =). До новых встреч!")
